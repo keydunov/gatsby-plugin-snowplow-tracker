@@ -1,0 +1,27 @@
+{
+  "name": "gatsby-plugin-snowplow-tracker",
+  "version": "1.0.0",
+  "description": "Gatsby plugin to install Snowplow tracker",
+  "main": "index.js",
+  "repository": "https://github.com/keydunov/gatsby-plugin-snowplow-tracker",
+  "author": "Artyom Keydunov",
+  "license": "MIT",
+  "scripts": {
+    "build": "babel src --out-dir ."
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.7.6"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.7.5",
+    "@babel/core": "^7.7.5",
+    "@testing-library/react": "^9.3.2",
+    "babel-preset-gatsby-package": "^0.2.15",
+    "cross-env": "^5.2.1"
+  },
+  "peerDependencies": {
+    "gatsby": "^2.0.0",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2"
+  }
+}
