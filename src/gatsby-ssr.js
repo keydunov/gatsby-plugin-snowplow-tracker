@@ -4,9 +4,9 @@ export const onRenderBody = (
   { setHeadComponents },
   { snippetHost, snippetVersion, namespace, collectorUri, config }
 ) => {
-  //if (process.env.NODE_ENV !== `production`) {
-  //  return null
-  //}
+  if (process.env.NODE_ENV !== `production`) {
+    return null
+  }
 
   if (!snippetHost || !snippetVersion || !collectorUri) {
     return null
